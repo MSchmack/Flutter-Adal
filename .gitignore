@@ -1,18 +1,9 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+.DS_Store
+.dart_tool/
 
-# Other files and folders
-.settings/
+.packages
+.pub/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+build/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+example/lib/config.dart
