@@ -5,10 +5,12 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral()
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
+
     }
 }
 
@@ -30,5 +32,18 @@ android {
     }
     lintOptions {
         disable 'InvalidPackage'
+    }
+}
+dependencies {
+    // your dependencies here...
+    compile('com.microsoft.aad:adal:1.15.+') {
+        // if your app includes android support
+        // libraries or Gson in its dependencies
+        // exclude that groupId from ADAL's compile
+        // task by un-commenting the appropriate
+        // line below
+
+        // exclude group: 'com.android.support'
+        // exclude group: 'com.google.code.gson'
     }
 }

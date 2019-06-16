@@ -44,10 +44,14 @@ class _MyAppState extends State<MyApp> {
   AdalAuthContext authContext;
   test() async {
     authContext = await Flutteradal.adalLogin(
-        authority: Config.authority,
-        resourceUrl: Config.resourceUrl,
-        clientId: Config.clientId,
-        redirectUrl: Config.redirectUrl);
+        authority: BoschADFS.authority,
+        resourceUrl: BoschADFS.resourceUrl,
+        clientId: BoschADFS.clientId,
+        redirectUrl: BoschADFS.redirectUrl);
+    setState(() {});
+  }
+  test2() async {
+    var s = await Flutteradal.adalGetToken();
     setState(() {});
   }
 
@@ -70,6 +74,10 @@ class _MyAppState extends State<MyApp> {
                 RaisedButton(
                   child: Text("Hi"),
                   onPressed: () async => test(),
+                ),
+                RaisedButton(
+                  child: Text("HiHo"),
+                  onPressed: () async => test2(),
                 ),
                 this.authContext == null
                     ? Container()

@@ -14,12 +14,7 @@ public class SwiftFlutteradalPlugin: NSObject, FlutterPlugin {
       result("iOS " + UIDevice.current.systemVersion)
     } else if (call.method == "adalLoginSilent") {
         
-  //      let args = call.arguments as? Dictionary<String, String>;
-        
-   //     let authority = "https://stfs.bosch.com/adfs"
-      //  let resourceUrl = "https://stfs.bosch.com/adfs/userinfo"
-    //    let clientId = args?["clientId"]
-    //    let redirectUrl = "https://rb-portal.bosch.com"
+
         let args = call.arguments as? Dictionary<String, String>;
         
         let authority = args?["authority"]
