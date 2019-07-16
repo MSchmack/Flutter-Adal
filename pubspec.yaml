@@ -1,5 +1,5 @@
 name: flutteradal
-description: A new flutter plugin project.
+description: Plugin to use the ADAL packages from Android & IOS.
 version: 0.1.0
 author:  Marius Schmack <schmackmarius@gmail.com>
 homepage: http://www.schmack.me
