@@ -5,3 +5,7 @@ Initial release - ios only
 ## 0.1.1
 
 Github repo made public. Added the Url to the readme
+
+## 0.1.2
+
+License had the nickname, changed to real name and email
