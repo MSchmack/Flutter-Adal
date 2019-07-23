@@ -1,6 +1,6 @@
 name: flutteradal
 description: Plugin to use the ADAL packages from Android & IOS.
-version: 0.1.2
+version: 1.0.0
 author:  Marius Schmack <schmackmarius@gmail.com>
 homepage: https://github.com/peyter213/Flutter-Adal
 
