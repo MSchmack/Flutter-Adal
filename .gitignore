@@ -6,4 +6,4 @@
 
 build/
 
-example/lib/config.dart
+example/lib/privconfig.dart
