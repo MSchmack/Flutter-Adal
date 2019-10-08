@@ -1,3 +1,8 @@
+## 1.0.2
+
+ADAL Version updated to 4.0.3 which is nessecary to support IOS 13.
+Changes to the swift code that reflect the update.
+
 ## 1.0.1
 
 Added test config to the example. Readme improved
