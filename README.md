@@ -22,6 +22,7 @@ flutter packages get
 cd /ios
 pod init
 pod install
+pod update
 ```
 
 ## FLUTTER

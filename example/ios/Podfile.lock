@@ -1,33 +1,33 @@
 PODS:
-  - ADAL (4.0.3):
-    - ADAL/app-lib (= 4.0.3)
-  - ADAL/app-lib (4.0.3):
+  - ADAL (4.0.4):
+    - ADAL/app-lib (= 4.0.4)
+  - ADAL/app-lib (4.0.4):
     - ADAL/tokencacheheader
-  - ADAL/tokencacheheader (4.0.3)
+  - ADAL/tokencacheheader (4.0.4)
   - Flutter (1.0.0)
   - flutteradal (1.0.0):
-    - ADAL (= 4.0.3)
+    - ADAL (= 4.0.4)
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `.symlinks/flutter/ios`)
+  - Flutter (from `Flutter`)
   - flutteradal (from `.symlinks/plugins/flutteradal/ios`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - ADAL
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: ".symlinks/flutter/ios"
+    :path: Flutter
   flutteradal:
     :path: ".symlinks/plugins/flutteradal/ios"
 
 SPEC CHECKSUMS:
-  ADAL: 55bf78d7b914c2edb37d5e36d754003b9a87a557
+  ADAL: a2eaf81a524ac8e7324062d53c8b6ad4394f64db
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutteradal: c7c55152567e8a19dd4dbda66010ab0447b8fe22
+  flutteradal: a8540364ad57bccefbf959cfdfbf988d49014ed7
 
-PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.3

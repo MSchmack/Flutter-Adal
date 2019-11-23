@@ -1,3 +1,7 @@
+## 1.0.3
+
+ADAL Version updated to 4.0.4.
+
 ## 1.0.2
 
 ADAL Version updated to 4.0.3 which is nessecary to support IOS 13.
